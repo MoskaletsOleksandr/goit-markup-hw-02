@@ -1,0 +1,266 @@
+body {
+  font-family: 'Roboto', sans-serif;
+
+  /* Найбільш повторювані властивості на макеті виносимо в body. */
+}
+
+/* Всі кольори тексту та кольори фону виносимо у змінні */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.current-menu-item {
+  color: #2196f3;
+}
+/* ---------HEADER---------- */
+
+.header {
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-decoration: none;
+}
+.logo-blue {
+  color: #2196f3;
+}
+.header-nav {
+  list-style: none;
+}
+.header-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+.current-menu-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #2196f3;
+}
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: #2196f3;
+}
+.header-contacts {
+  list-style: none;
+}
+.header-contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+
+.header-contact-link:hover,
+.header-contact-link:focus {
+  color: #2196f3;
+}
+
+/* ---------FOOTER---------- */
+
+.footer {
+  background: #2f303a;
+}
+.logo-foot {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+.add {
+}
+.add-list {
+  list-style: none;
+}
+.add-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  text-decoration: none;
+}
+.add-item-map {
+  color: #ffffff;
+  text-decoration: inherit;
+}
+.add-item-link {
+  color: inherit;
+  text-decoration: inherit;
+}
+/* ---------INDEX-MAIN---------- */
+/* ---------INDEX-MAIN---------- */
+/* ---------INDEX-MAIN---------- */
+
+/* ---------HERO---------- */
+
+.hero {
+  background: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.hero-btn {
+  border: none;
+  background: #2196f3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+/* ---------BENEFITS---------- */
+
+.benefits {
+}
+.benefits-list {
+  list-style: none;
+}
+.benefits-item {
+}
+.benefits-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.benefits-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* ---------EXAMPLES---------- */
+
+.examples {
+}
+.examples-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.examples-list {
+  list-style: none;
+}
+.examples-item {
+}
+.examples-img {
+}
+
+/* ---------TEAM---------- */
+
+.team {
+  background: #f5f4fa;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-list {
+  list-style: none;
+  background: #ffffff;
+}
+.team-item {
+}
+.team-item-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.team-item-img {
+}
+
+/* ---------PORTFOLIO-MAIN---------- */
+/* ---------PORTFOLIO-MAIN---------- */
+/* ---------PORTFOLIO-MAIN---------- */
+
+/* ---------PORTFOLIO---------- */
+
+.portfolio {
+}
+.visually-hidden {
+}
+.portfolio-btns {
+}
+.portfolio-btn {
+  border: none;
+  background: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  t-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background: #2196f3;
+  color: #fff;
+}
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-item-link {
+}
+.portfolio-item-title {
+}
+.portfolio-item-text {
+}
