@@ -235,19 +235,20 @@ body {
 
 .portfolio {
 }
-.visually-hidden {
-}
 .portfolio-btns {
+  list-style: none;
 }
 .portfolio-btn {
+  font-family: inherit;
   border: none;
   background: #f5f4fa;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  t-align: center;
+  text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  cursor: pointer;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
@@ -255,12 +256,24 @@ body {
   color: #fff;
 }
 .portfolio-list {
+  list-style: none;
 }
 .portfolio-item {
 }
 .portfolio-item-link {
+  text-decoration: none;
 }
 .portfolio-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
 }
 .portfolio-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
